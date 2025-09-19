@@ -28,7 +28,7 @@ class LogFormat:
             {'key':'D', 'label':'Duration', 'pattern':r'(\d+|-)'},
             {'key':'e', 'label':'Env', 'pattern':None},
             {'key':'f', 'label':'File', 'pattern':r'.+'},
-            {'key':'h', 'label':'RemoteHost', 'pattern':r'(\d{1,3}\.\d{1,3}\.\d{1,3}.\d{1,3})'},
+            {'key':'h', 'label':'RemoteHost', 'pattern':r'(\d{1,3}\.\d{1,3}\.\d{1,3}.\d{1,3}|[\w\-\.]+)'},
             {'key':'H', 'label':'Protocol', 'pattern':r'(\w+)'},
             {'key':'i', 'label':'RequestHeader', 'pattern':None},
             {'key':'I', 'label':'ReceiveBytes', 'pattern':r'(\d+)'},
